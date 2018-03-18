@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/thumbnail.png">
+    <title>EDH League Manager</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="//cdn.jsdelivr.net/npm/keyrune@latest/css/keyrune.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,500,700|Montserrat:400,400i,500,500i" rel="stylesheet">
+    <link rel="stylesheet" href="css/createLeagueStyle.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top w3-black w3-card">
+        <a class="navbar-brand" href="#">
+            <img src="images/magic-the-gathering-logo-elements.png" width="30" class="d-inline-block align-top w3-card rounded-square" alt="Magic The Gathering Icon">
+          EDH League Manager
+        </a>
+        <!-- Logout added by Venkat -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/logout">
+            Logout
+            </a>
+        </div>
+    </nav>
+    <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url("../images/225773675-mtg-land-wallpaper.jpg");
+
+        /* Full height */
+        height: 45%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index:-1;
+    }
+    </style>
+    <div class="container">
+
+        <!-- added by Venkat -->
+        <div class="row">
+                <!-- <div class="col-md-9 col-md-offset-3"> -->
+                <div class="col-md-9">
+                    <h4>Welcome <span class="created-name"></span></h4>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9">
+                <h2>League Creation</h2>
+                <form class="createleaguename">
+                    <div class="form-group">
+                            <label for="example-text-input" class="col-2 col-form-label">League Name</label>
+                            <div class="col-10">
+                              <input class="form-control" type="text" value="Your League Name Here" id="leagueName">
+                            </div>
+                    </div>
+                    <button id="addLeague" type="submit" class="btn btn-default">Submit League Name</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-9">
+                    <form class="createleagueplayers">
+                            <div class="form-group">
+                                <label class="col-xs-2 control-label">Players</label>
+                                <div class="col-xs-6">
+                                    <input class="form-control" type="text" name="players[]" disabled />
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                    <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                    <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                    <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                                <div class="col-xs-offset-2 col-xs-6">
+                                        <input class="form-control" type="text" name="players[]" disabled/>
+                                </div>
+                            </div>
+                            <button id="submitPlayers" type="submit" class="btn btn-default" disabled>Submit Players</button>
+                    </form>
+                </div>
+        </div>
+    </div>  <!-- div class container -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Following line commented out by Venkat -->
+    <!-- <script type="text/javascript" src="js/signup.js"></script> -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Added by Venkat -->
+    <script type="text/javascript" src="js/createleague.js"></script>
+
+</body>
+
+</html>

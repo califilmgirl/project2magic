@@ -1,0 +1,94 @@
+
+/* add from Vanessa - 3.16.18 ~3:30pm */
+
+body, html {
+    height: 50%;
+}
+
+body {
+  background-image: url("../images/225773675-mtg-land-wallpaper.jpg");
+  background-color: black;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/225773675-mtg-land-wallpaper.jpg");
+
+    /* Full height */
+    height: 45%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy';
+    color: white;
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family:'Luckiest Guy';
+    font-color: white;
+    background-color: black;
+
+}
+
+.ss-grad {
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family:'Luckiest Guy';
+    font-color: white;
+    background-color: black;
+}
+
+.card-img-top {
+    position: relative;
+    opacity: 1;
+    transition: .2s ease;
+    backface-visibility: hidden;
+    font-family:'Luckiest Guy';
+    font-color: white;
+    background-color: black;
+}
+
+.userName {
+    position: absolute;
+    transition: .2s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-color: white;
+    background-color: black;
+}
+
+.user:hover .card-img-top {
+    opacity: 0.3;
+    font-family: 'Luckiest Guy';
+    font-color: white;
+    background-color: black;
+  }
+
+.user:hover .userName {
+    opacity: 1;
+    font-family: 'Luckiest Guy';
+    font-color: white;
+    background-color: black;
+}
+
+
+form.signup,
+form.login {
+  margin-top: 50px;
+}

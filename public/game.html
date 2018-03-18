@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/thumbnail.png">
+    <title>Magic The Gathering</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="//cdn.jsdelivr.net/npm/keyrune@latest/css/keyrune.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/createLeagueStyle.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top w3-pale-yellow w3-card">
+        <a class="navbar-brand" href="#">
+            <img src="images/thumbnail.png" width="30" class="d-inline-block align-top w3-card rounded-circle" alt="Magic The Gathering Icon">
+        </a>
+        <!-- Logout added by Venkat -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/logout">
+            Logout
+            </a>
+        </div>
+    </nav>
+
+    <div class="card border-0">
+        <div class="container">
+            <div class="card-header bg-white border-0">
+                <h3>League Name</h3>
+            </div>
+            <div class="card-body text-center w3-hover-shadow" id="supplementalCardsDiv">
+                <!--<h4 class="card-title">Supplemental Cards</h4>
+                <br>
+                <div class="card-deck">
+                    <div class="card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                    </div>
+                    <div class="card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                    </div>
+                    <div class="card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                    </div>
+                    <div class="card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                    </div>
+                    <div class="card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <button type="button" class="btn btn-secondary w3-hover-shadow">Generate New Cards</button>-->
+            </div>
+            <br>
+            <div class="card-body text-center w3-hover-shadow">
+                <h4 class="card-title">League Tables</h4>
+                <br>
+                <h5>Table 1</h5>
+                <hr>
+                <div class="card-deck">
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Vanessa
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Venkat
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Bob
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Matt
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Fred
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <h5>Table 2</h5>
+                <hr>
+                <div class="card-deck">
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Vanessa
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Venkat
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Bob
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Matt
+                        </div>
+                    </div>
+                    <div class="user card w3-hover-shadow">
+                        <img class="card-img-top" src="images/ArmyOfTheFaceless.png" alt="image">
+                        <div class="card-body userName w3-light-blue">
+                            Fred
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="navbar fixed-bottom w3-pale-yellow w3-card-4">
+        <i class="ss ss-pmtg2 ss-foil ss-grad ss-2x"></i>
+    </div>
+
+
+    <script>
+        window.onload = function () {
+
+            var supplementalCardsDiv = document.getElementById("supplementalCardsDiv");
+
+            var gameCount = window.location.href.split("?gameCount=")[1];
+            if (!gameCount) {
+                gameCount = 1;
+            } else {
+                gameCount = parseInt(gameCount);
+            }
+            if (isNaN(gameCount)) {
+                gameCount = 1;
+            }
+            console.log(gameCount)
+            Array.prototype.randsplice = function () {
+                var randomCard = Math.floor(Math.random() * this.length);
+                var randomSplice = this.splice(randomCard, 1);
+
+                return randomSplice[0];
+            }
+
+            var cards = ["ArmyOfTheFaceless.png", "BoundlessRealms.png", "Braingeyser.png", "BurnItAll.png", "CrumblingSanctuary.png", "Earthquake.png", "EnchantedForVictory.png", "EquippedForBattle.png", "GeneralDeath.png", "HealingHand.png", "InstantDeath.png", "LegendsRule.png", "Masochist.png", "Necropotence.png", "Prolific.png", "ResourceManagement.png", "SadButTrue.png", "Sharing.png", "SuperFriends.png", "Survivor.png", "TheWorldSpell.png", "ThirdTimesTheCharm.png", "ToMountDoom.png", "TurnAside.png", "Twenty-One.png"];
+
+            var newDeck = [];
+            var gameDecks = {};
+            // gameDecks['chris'] = 22;
+            // gameDecks['josh'] = 'cat';
+            // gameDecks['rob'] = ['cat','dog'];
+            // console.log(gameDecks);
+
+            for (var j = 0; j < gameCount; j++) {
+                gameDecks[j] = [];
+                for (var i = 0; i < 5; i++) {
+                    // newDeck.push(cards.randsplice());
+                    gameDecks[j].push(cards.randsplice());
+                }
+            }
+            console.log(gameDecks);
+
+            let str = `<h4 class="card-title">Supplemental Cards</h4>
+                    <br>`;
+            for (var j = 0; j < gameCount; j++) {
+                str += `<div class="card-deck">`;
+                for (var i = 0; i < gameDecks[j].length; i++) {
+                    str += `
+          <div class="card w3-hover-shadow">
+            <img class="card-img-top" src="images/${gameDecks[j][i]}" alt="image">
+          </div>
+        `
+                }
+                str += `</div><br>`;
+            }
+            supplementalCardsDiv.innerHTML = str;
+
+            // console.log(newDeck);
+            //   console.log(cards);
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
