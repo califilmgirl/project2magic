@@ -1,0 +1,33 @@
+{
+  "name": "magic_game_setup",
+  "version": "1.0.0",
+  "description": "Project 2 - Magic Game Setup",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatvenkataraman/projectTwo.git"
+  },
+  "keywords": [],
+  "author": "Project 2 Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatvenkataraman/projectTwo/issues"
+  },
+  "homepage": "https://github.com/venkatvenkataraman/projectTwo#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mysql2": "^1.5.2",
+    "npm": "^5.7.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.35.2"
+  }
+}
