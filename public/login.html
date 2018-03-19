@@ -22,7 +22,6 @@
             <img src="images/magic-the-gathering-logo-elements.png" width="30" class="d-inline-block align-top w3-card rounded-square" alt="Magic The Gathering Icon">
           EDH League Manager
         </a>
-        </div>
     </nav>
 
     <style>
@@ -30,14 +29,11 @@
         height: 100%;
         margin: 0;
     }
-
     .bg {
         /* The image used */
         background-image: url("../images/225773675-mtg-land-wallpaper.jpg");
-
         /* Full height */
         height: 45%;
-
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
@@ -46,26 +42,7 @@
     }
     </style>
 
-    <div class="form-collection">
-      <form class="login">
-        <div class="card elevation-2 limit-width sign-up-card above">
-            <div class="card-body">
-              <form class="login">
-              <div class="input-group email">
-              <input type="email" class="form-control" id="email-input" placeholder="Email">
-            </div>
-            <div class="input-group password">
-              <input type="password" class="form-control" id="password-input" placeholder="Password">
-            </div>
-            </div>
-          <div class="card-footer">
-            <div style="display: none" id="alert" class="alert alert-danger" role="alert">
-              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-              <span class="sr-only">Error:</span> <span class="msg"></span>
-            </div>
-            <button type="submit" class="btn btn-primary" id="submitButton" href="/login">Login</button>
 
-          </div>
         </div>
 
         <div class="card elevation-3 limit-width log-in-card below turned">
@@ -73,15 +50,46 @@
           If you're new to EDH League Manager sigh up here.
           <br>
           <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
 
           </div>
+
           <div class="card-footer">
-            <button class="btn btn-primary" link="/signup">Sign Up</button>
+            <form id="signupForm" action="/signup">
+            <button type="submit" id="signupButton" class="btn btn-primary" href="/signup">Sign Up</button>
+          </form>
           </div>
         </div>
       </div>
 
+      <div class="form-collection">
+        <form class="login">
+          <div class="card elevation-2 limit-width sign-up-card above">
+              <div class="card-body">
+                <div class="input-group email">
+                  <input type="email" class="form-control" id="email-input" placeholder="Email">
+              </div>
+              <div class="input-group password">
+                <input type="password" class="form-control" id="password-input" placeholder="Password">
+              <button type="submit" class="btn btn-primary" id="submitButton">Login</button>
+              </div>
+              </div>
+            </form>
+            <div class="card-footer">
+              <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span> <span class="msg"></span>
+              </div>
+              </form>
+              <form>
+              <button class="btn btn-primary">Login Here</button>
+              </form>
 
+            </div>
 
       <script src="https://code.jquery.com/jquery.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

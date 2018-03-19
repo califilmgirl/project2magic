@@ -156,5 +156,9 @@ $(document).ready(function() {
       console.log("values", newAssign);
       }
     }
-
+    $('#playerList').addClass('animated slideInRight');
+    $('#commanderList').addClass('animated slideInRight');
+    $('#points').addClass('animated slideInRight');
+    
+  }
 });

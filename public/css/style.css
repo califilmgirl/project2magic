@@ -10,15 +10,18 @@ body {
   background-color: black;
 }
 
-h1 {
-  font-family: bold, 'Expletus Sans';
-  color: blue;
-  position: absolute;
-}
-
 .bg {
     /* The image used */
+    background-image: url("../images/225773675-mtg-land-wallpaper.jpg");
 
+    /* Full height */
+    height: 45%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
 }
 
 * {
